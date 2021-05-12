@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONBASPORT</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="shortcut icon" href="logo/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="app.js"></script>
+</head>
+<body>
+    <row>
+        <div class="container">
+            <header>
+                <div class="coheader">
+                    <img src="logo/yatay.png" height="50px">
+                    <ul>
+                        <li><a><i style="margin-right: 5px;" class="fas fa-exclamation"></i>Tasarım amaçlıdır</a></li>
+                        <li><a><i class="fas fa-hashtag"></i>conbasportHD</a></li>
+                        <li><a><i class="fab fa-youtube"></i></a></li>
+                        <li><a><i class="fab fa-telegram"></i></a></li>
+                    </ul>
+                </div>
+            </header>
+            <div class="videoSection">
+                <div class="video-player" >
+                    <video class="video" controls="controls" width="700" height="400">
+                        <source id="source" class="source" src="" type="video/mp4">
+                    </video>
+                </div>
+                <div class="rightbar">
+                    <div class="buttons">
+                        <button type="button" onclick="football()">FUTBOL</button>
+                        <button type="button" onclick="basketball()">BASKETBOL</button>
+                    </div>
+                    <img id="bgimg" src="logo/dikey siyah.png" height="300px">
+                    <div class="list">
+                        <ul id="futbol" style="display: none;">
+                            <li><a onclick="futbolVideo()">20:30 Beşiktaş - Fenerbahçe</a> </li>
+                            <li><a href="" onclick="futbolVideo()">20:30 Galatasaray - Bahçeşehir</a></li>
+                            <li><a href="" onclick="futbolVideo()">20:30 Trabzonspor - Adanademirspor</a></li>
+                        </ul>
+                        <ul id="basketbol" style="display: none;">
+                            <li><a href="">02:00 Charlotte Hornets - LA Clippers</a></li>
+                            <li><a href="">04:00 Dallas Mavericks - Toronto Raptors</a></li>
+                            <li><a href="">23:00 SA Spurs - Phoenix Suns</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+           <!-- <div class="f-text">Maçlarda ilk 90 dakikalar çok önemli<span>-BOBBY ROBSON</span></div> -->
+            <div class="footer">
+                <div class="container"  style="align-items: flex-start;">
+                    <ul>
+                        <li><img src="logo/dikey siyah.png" height="270px"></li>
+                    </ul>
+                    <ul class="text">
+                        <h3>CONBA SPORT</h3>
+                        <li>Hakkımızda</li>
+                        <li>İletişim</li>
+                    </ul>
+                    <ul class="text">
+                        <h3>TOPLULUK</h3>
+                        <li>Kullanıcılar</li>
+                        <li>Geliştirici</li>
+                        <li>Rekramcılar</li>
+                        <li>Destekçiler</li>
+                    </ul>
+                    <ul class="text">
+                        <h3>YARARLI BAĞLANTILAR</h3>
+                        <li>Destek</li>
+                        <li><img src="logo/gplay.png" height="50px"></li>
+                        <li><img src="logo/app_store_badge-2.png" height="50px"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </row>
+</body>
+</html>
